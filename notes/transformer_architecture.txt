@@ -1,0 +1,5 @@
+Transformer Architecture Details
+
+The Transformer architecture replaces recurrence with self-attention to compute representations of input sequences in parallel. Each layer contains two sub-layers: a multi-head self-attention mechanism and a position-wise fully-connected feedforward network. Residual connections around each sub-layer and layer normalization are essential for training deep stacks of these layers effectively. The self-attention mechanism computes attention scores between all positions in the input, allowing each token to attend to all other tokens in the sequence.
+
+The attention computation uses three learned linear projections (query, key, value) to transform input vectors. The scaled dot-product attention scales the dot products by the square root of the dimension to prevent the softmax from becoming too peaked. Multi-head attention extends this by running several attention operations in parallel and concatenating their outputs, enabling the model to jointly attend to information from different representation subspaces at different positions.

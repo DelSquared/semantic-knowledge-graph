@@ -1,0 +1,9 @@
+Natural Language Processing
+
+Natural language processing (NLP) is a subfield of linguistics, computer science, and artificial intelligence concerned with the interactions between computers and human language. The goal is to enable computers to understand, interpret, generate, and respond to human language in a way that is both meaningful and useful.
+
+NLP combines computational linguistics with statistical, machine learning, and deep learning models. Early approaches relied heavily on hand-crafted rules and lexicons. Modern approaches use neural network architectures, particularly transformers, which have dramatically improved performance on tasks such as machine translation, sentiment analysis, question answering, and text summarization.
+
+Key challenges in NLP include ambiguity, context understanding, cultural nuance, and the ability to reason about world knowledge. Pre-trained language models like BERT, GPT, and their successors have become foundational tools that are fine-tuned for specific downstream tasks.
+
+Applications of NLP include machine translation, chatbots, search engines, content moderation, document summarization, and assistive technologies for people with disabilities.

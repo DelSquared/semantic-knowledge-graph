@@ -1,0 +1,5 @@
+Recurrent Neural Networks
+
+Recurrent neural networks (RNNs) are designed to handle sequential data by maintaining an internal hidden state that captures information from previous inputs. Unlike feedforward networks, RNNs have connections that form directed cycles, allowing them to retain a memory of past computations. This makes them well-suited for tasks involving sequences, such as language modeling, time series prediction, speech recognition, and machine translation.
+
+A basic RNN processes one element at a time, updating its hidden state based on the current input and the previous hidden state. However, vanilla RNNs suffer from vanishing and exploding gradients, which makes them difficult to train on long sequences. Long short-term memory (LSTM) networks and gated recurrent units (GRUs) were developed to address these issues by introducing gating mechanisms that regulate information flow, enabling these architectures to learn long-range dependencies effectively.

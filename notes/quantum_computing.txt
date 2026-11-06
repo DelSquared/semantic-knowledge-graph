@@ -1,0 +1,5 @@
+Quantum Computing
+
+Quantum computing harnesses the principles of quantum mechanics to process information in fundamentally new ways. Unlike classical computers that use bits representing 0 or 1, quantum computers use quantum bits or qubits that can exist in superposition states, representing both 0 and 1 simultaneously. This property, combined with entanglement and quantum interference, enables quantum computers to solve certain problems exponentially faster than classical computers.
+
+Major quantum algorithms include Shor's algorithm for factoring large integers, which threatens modern cryptography, and Grover's algorithm for searching unstructured databases quadratically faster than classical approaches. Current quantum computers are still in the Noisy Intermediate-Scale Quantum (NISQ) era, with hundreds of physical qubits that must be kept at near-absolute zero temperatures to maintain coherence.

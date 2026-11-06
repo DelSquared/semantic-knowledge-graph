@@ -1,0 +1,5 @@
+Convolutional Neural Networks
+
+Convolutional neural networks (CNNs) are a specialized class of deep neural networks designed specifically for processing grid-like data such as images. Unlike fully-connected networks, CNNs use convolutional layers that slide small filters across the input to detect local patterns like edges, textures, and shapes. These filters, also called kernels, are learned during training and can detect increasingly complex features as they are stacked deeper into the network. The architecture typically alternates convolutional layers with pooling layers that reduce spatial dimensions, followed by fully-connected layers for classification.
+
+CNNs have achieved remarkable success in computer vision tasks including image classification, object detection, segmentation, and facial recognition. Architectures like ResNet, VGG, and EfficientNet have pushed the boundaries of what is possible, with some models now surpassing human-level performance on standard benchmarks like ImageNet.

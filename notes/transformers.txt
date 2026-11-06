@@ -1,0 +1,11 @@
+Transformers
+
+The Transformer is a neural network architecture introduced in the paper "Attention Is All You Need" by Vaswani et al. (2017). It revolutionized natural language processing by replacing recurrent and convolutional layers with a self-attention mechanism that allows the model to process all input tokens in parallel.
+
+The key innovation is self-attention, which computes a weighted sum of all input positions for each output position. This mechanism enables the model to capture long-range dependencies in sequences much more efficiently than RNNs. Multi-head attention allows the model to attend to different aspects of the input simultaneously.
+
+Transformers use an encoder-decoder architecture. The encoder processes the input sequence and produces a representation, while the decoder generates the output sequence autoregressively. Both encoder and decoder consist of stacks of transformer blocks, each containing a multi-head self-attention layer and a position-wise feed-forward network.
+
+Pre-trained transformers such as BERT (bidirectional encoder), GPT (generative pre-trained transformer), and their variants are the foundation of modern NLP systems. They are pre-trained on large text corpora using unsupervised or self-supervised objectives, then fine-tuned on specific tasks.
+
+The efficiency of transformers has enabled the development of very large language models with billions or even trillions of parameters, which have demonstrated emergent capabilities not present in smaller models.

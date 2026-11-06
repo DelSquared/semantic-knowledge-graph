@@ -1,0 +1,9 @@
+Deep Learning
+
+Deep learning is a class of machine learning algorithms that uses multiple layers of neural networks to progressively extract higher-level features from raw input. For example, in image processing, lower layers may identify edges and colors, while higher layers may identify concepts relevant to a human such as digits, letters, or faces.
+
+The term "deep" refers to the number of layers in the network. While traditional neural networks might have one or two hidden layers, deep networks can have dozens or hundreds. This depth allows the network to learn hierarchical representations of data.
+
+Convolutional neural networks (CNNs) excel at processing grid-like data such as images. Recurrent neural networks (RNNs) and their variants (LSTMs, GRUs) are designed for sequential data. Transformers, introduced in 2017, have become the dominant architecture for most NLP tasks due to their ability to capture long-range dependencies through self-attention mechanisms.
+
+Training deep neural networks requires large amounts of data and significant computational resources, typically GPUs. Techniques such as dropout, batch normalization, residual connections, and transfer learning help train deep networks effectively.

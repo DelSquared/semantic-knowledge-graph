@@ -1,0 +1,7 @@
+Quantum Mechanics
+
+Quantum mechanics is a fundamental theory in physics that describes the behavior of nature at the atomic and subatomic scales. It differs from classical physics in that energy, momentum, angular momentum, and other quantities are often restricted to discrete values. Objects have characteristics of both particles and waves, and there are limits to how accurately the value of a physical quantity can be predicted prior to its measurement.
+
+Key concepts include wave-particle duality, superposition, entanglement, and uncertainty. The theory was developed in the early 20th century by physicists including Max Planck, Albert Einstein, Niels Bohr, Werner Heisenberg, Erwin Schrödinger, and Paul Dirac. Quantum mechanics has applications in many areas including chemistry, electronics, cryptography, and computing.
+
+The mathematical framework of quantum mechanics involves wave functions, operators, and Hilbert spaces. The Schrödinger equation describes how the quantum state of a physical system changes over time.

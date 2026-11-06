@@ -1,0 +1,5 @@
+Backpropagation
+
+Backpropagation, short for "backward propagation of errors," is the cornerstone algorithm that makes training deep neural networks possible. Introduced by Geoffrey Hinton and others, it works by computing the gradient of the loss function with respect to each weight in the network, then using gradient descent to adjust those weights in the direction that reduces the error. The key insight is that gradients can be computed efficiently using the chain rule, passing error signals backward from the output layer to the input layer. Despite its name, backpropagation is not a separate learning algorithm but rather a method for computing gradients that works in tandem with any gradient-based optimizer.
+
+Modern deep learning frameworks like PyTorch and TensorFlow implement automatic differentiation, which handles the complex bookkeeping of applying the chain rule through potentially thousands of layers. Without backpropagation, training networks with millions of parameters would be computationally intractable. The algorithm's efficiency, with a time complexity linear in the number of connections, made the deep learning revolution possible.

@@ -1,0 +1,5 @@
+Regularization
+
+Regularization is a set of techniques used to prevent machine learning models from overfitting to their training data. Overfitting occurs when a model learns the training data too well, including noise and outliers, which hurts its ability to generalize to new, unseen data. The most common form is L2 regularization, also known as weight decay, which adds a penalty term proportional to the squared magnitude of weights to the loss function. This discourages large weight values and keeps the model simpler.
+
+Other important regularization methods include L1 regularization (which promotes sparsity by adding an absolute value penalty), dropout (which randomly zeroes out neurons during training to prevent co-adaptation), and early stopping (which halts training when validation performance begins to degrade). These techniques are essential for training deep learning models, which have the capacity to memorize training data without proper constraints.

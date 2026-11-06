@@ -1,0 +1,5 @@
+Dutch Disease
+
+Dutch disease is a macroeconomic term describing a situation where a rapid increase in exports of natural resources brings about currency appreciation, which in turn causes other domestic export sectors to lose their competitiveness. The phenomenon was first identified in the Netherlands following the discovery of offshore natural gas deposits in the 1950s and 1960s, when the manufacturing sector contracted despite the economic boom.
+
+The mechanism works through two channels: a spending effect, where increased export earnings strengthen the currency and make other exports more expensive abroad; and a resource movement effect, where labor and capital shift from tradable goods production toward the booming resource sector. Countries experiencing Dutch disease often see a decline in traditional industries such as manufacturing and agriculture while their currency strengthens on global markets.

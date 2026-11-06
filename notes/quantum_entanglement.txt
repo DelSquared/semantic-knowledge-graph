@@ -1,0 +1,9 @@
+Quantum Entanglement
+
+Quantum entanglement is a phenomenon in quantum mechanics where two or more particles become correlated in such a way that the quantum state of each particle cannot be described independently of the others, regardless of the distance separating them. When particles are entangled, the measurement of one particle's properties instantly influences the properties of the other particle.
+
+Einstein famously called this "spooky action at a distance," as it seems to violate the principle of locality. However, experiments have repeatedly confirmed entanglement, and it is now a well-established resource in quantum information science.
+
+Entanglement is used in quantum computing for qubit operations, in quantum cryptography for secure communication, and in quantum teleportation protocols. The degree of entanglement can be quantified using measures such as entanglement entropy.
+
+Recent experiments have demonstrated entanglement over distances exceeding 1200 km using satellite-based quantum communication, paving the way for a global quantum internet.

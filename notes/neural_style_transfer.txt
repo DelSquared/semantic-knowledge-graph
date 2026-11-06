@@ -1,0 +1,5 @@
+Neural Style Transfer
+
+Neural style transfer is a technique that combines the content of one image with the artistic style of another using deep neural networks. The method, introduced by Gatys et al. in 2015, works by separately extracting content features and style features from images using a pre-trained convolutional network like VGG-19. Content features are captured by deeper layers that encode high-level object information, while style features are captured by earlier layers that encode texture and color patterns through Gram matrices.
+
+The optimization process iteratively adjusts a white-noise input image to match the content target in deep layers and the style target in shallow layers simultaneously. This creates images that preserve the structure of the content image while adopting the aesthetic qualities of the style image. The technique has inspired numerous applications in art generation, photo editing, and creative tools, though it remains computationally expensive for real-time use.

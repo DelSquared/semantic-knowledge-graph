@@ -1,0 +1,9 @@
+Reinforcement Learning
+
+Reinforcement learning (RL) is a type of machine learning where an agent learns to make decisions by performing actions in an environment to maximize cumulative reward. The agent receives feedback in the form of rewards or penalties for its actions, and uses this feedback to improve its policy over time.
+
+Unlike supervised learning, where the training data includes the correct answers, RL agents must discover through trial and error which actions yield the highest reward. This makes RL particularly suitable for problems where the solution is not known in advance and exploration is necessary.
+
+Key concepts in RL include states, actions, rewards, policies, value functions, and Q-functions. The exploration-exploitation tradeoff is central to RL: the agent must balance trying new actions (exploration) with exploiting known good actions (exploitation).
+
+Deep reinforcement learning, which combines RL with deep neural networks, has achieved remarkable successes including playing complex video games at superhuman levels, mastering the game of Go, and controlling robotic systems. Algorithms such as DQN, PPO, and A3C are commonly used.

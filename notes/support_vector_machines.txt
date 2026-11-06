@@ -1,0 +1,5 @@
+Support Vector Machines
+
+Support vector machines (SVMs) are a powerful supervised learning algorithm used for classification and regression tasks. The core idea is to find the hyperplane that best separates different classes in the feature space by maximizing the margin between the hyperplane and the nearest data points from each class, known as support vectors. This maximum-margin principle gives SVMs strong generalization capabilities and makes them effective even in high-dimensional spaces.
+
+SVMs can handle non-linear decision boundaries using the kernel trick, which maps input data into higher-dimensional spaces where separation becomes easier. Common kernels include the linear kernel, polynomial kernel, and the radial basis function (RBF) kernel. While SVMs were extremely popular before the deep learning era, they remain competitive on smaller datasets and in applications where interpretability and computational efficiency are important.

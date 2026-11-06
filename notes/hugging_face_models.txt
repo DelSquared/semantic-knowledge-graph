@@ -1,0 +1,5 @@
+Hugging Face Models
+
+Hugging Face has become the de facto hub for open-source natural language processing models, hosting thousands of pre-trained models that can be fine-tuned for specific tasks. Their transformers library provides a unified API for working with models from different architectures, including BERT, RoBERTa, DistilBERT, and the GPT family. The platform emphasizes accessibility, allowing researchers to download, use, and share models with minimal friction.
+
+The most popular models on the platform include BERT for bidirectional context understanding, GPT-3 and GPT-4 for generative tasks, and T5 for text-to-text generation. Hugging Face also offers Inference API endpoints and a model inference widget called Spaces, which lets users interact with models directly in the browser without writing any code. This ecosystem has significantly lowered the barrier to entry for applying state-of-the-art NLP techniques.

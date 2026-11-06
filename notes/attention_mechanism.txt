@@ -1,0 +1,14 @@
+Attention Mechanism
+
+The attention mechanism is a technique in deep learning that allows a model to focus on specific parts of its input when producing each part of its output. It was introduced by Bahdanau et al. in 2014 for neural machine translation and later generalized by Vaswani et al. in the Transformer architecture.
+
+In the attention mechanism, the model computes a set of attention weights that determine how much each input element should contribute to each output element. These weights are computed using learned compatibility scores between query vectors and key vectors, typically through a softmax function.
+
+There are three main types of attention:
+1. Self-attention: queries, keys, and values all come from the same source sequence
+2. Cross-attention: queries come from one sequence, keys and values from another
+3. Multi-head attention: multiple attention mechanisms operating in parallel
+
+The attention mechanism has become a fundamental building block in modern deep learning, used not only in NLP but also in computer vision (e.g., Vision Transformers) and other domains. It provides a way to dynamically weigh the importance of different inputs without increasing model complexity proportionally.
+
+Efficient implementations of attention, such as Flash Attention, have made it possible to train very large models on long sequences with limited memory.

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semantic Knowledge Graph</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+    <div id="app">
+        <header id="header">
+            <div class="header-left">
+                <h1>Semantic Knowledge Graph</h1>
+                <span id="stats" class="stats">Loading...</span>
+            </div>
+            <div class="header-right">
+                <button id="rebuild-btn" title="Rebuild graph from notes">Rebuild Graph</button>
+                <button id="toggle-labels" title="Toggle node labels">Toggle Labels</button>
+                <button id="reset-view" title="Reset camera view">Reset View</button>
+            </div>
+        </header>
+        <div id="tooltip" class="tooltip"></div>
+        <div id="legend" class="legend">
+            <div class="legend-item">
+                <span class="legend-color" style="background:#4CAF50;"></span>
+                <span>High similarity</span>
+            </div>
+            <div class="legend-item">
+                <span class="legend-color" style="background:#FFC107;"></span>
+                <span>Medium similarity</span>
+            </div>
+            <div class="legend-item">
+                <span class="legend-color" style="background:#F44336;"></span>
+                <span>Low similarity</span>
+            </div>
+
+        </div>
+        <div id="canvas-container"></div>
+        <div id="loading-overlay" class="loading-overlay">
+            <div class="loading-spinner"></div>
+            <p id="loading-text">Building semantic graph from notes...</p>
+        </div>
+        <div id="error-overlay" class="error-overlay hidden">
+            <h2>Failed to load graph</h2>
+            <p id="error-message"></p>
+            <button id="error-retry">Retry</button>
+        </div>
+    </div>
+
+    <!-- ES module imports -->
+    <script type="module" src="/static/js/app.js"></script>
+</body>
+</html>

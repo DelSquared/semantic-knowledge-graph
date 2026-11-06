@@ -1,0 +1,5 @@
+Gradient Descent
+
+Gradient descent is the fundamental optimization algorithm used to train most machine learning models. The idea is simple: since we want to minimize a loss function, we compute the gradient (the direction of steepest ascent) and take a step in the opposite direction. The size of each step is controlled by the learning rate, a hyperparameter that determines how aggressively the model pursues the minimum. When the learning rate is too high, the algorithm can overshoot the minimum and diverge; when it is too low, training becomes impractically slow.
+
+Variants of gradient descent differ in how they use the data to compute gradients. Batch gradient descent computes the gradient using the entire dataset, which is accurate but slow for large datasets. Stochastic gradient descent (SGD) uses a single randomly selected example at a time, making it fast but noisy. Mini-batch gradient descent strikes a balance by computing gradients on small random subsets of the data, combining the efficiency of SGD with more stable convergence.
